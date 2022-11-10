@@ -17,16 +17,21 @@ const Projects = () => {
             title: "booking app",
             description: "mini booking app using Mern-stuck stracture",
             imgUrl: booking,
+            href:"https://github.com/Einchem/Bookingapp.git"
+            
         },
         {
             title: "weather app",
             description: "wheather app using API",
             imgUrl: weather,
+            href:"https://github.com/Einchem/weatherApp.git"
         },
         {
             title: "portfolio",
             description: "my portfolio",
             imgUrl: portfolio,
+            
+            href:"https://github.com/Einchem/Portfolio.git"
         }
     ]
     return (
