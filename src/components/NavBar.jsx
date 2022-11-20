@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Download } from 'react-bootstrap-icons';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import navIcon3 from '../assets/img/th.jpg'
 import './navBar.css'
 
 const NavBar = () => {
@@ -57,11 +56,11 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href='https://il.linkedin.com/in/eran-cohen-91123b182'><img src={navIcon1} alt='' /></a>
-              <a href='https://he-il.facebook.com/eran.cohen.37017'><img src={navIcon2} alt='' /></a>
-              <a href='https://www.instagram.com/erancohenh/'><img src={navIcon3} alt='' /></a>
+              <a target={"_blank"} href='https://il.linkedin.com/in/eran-cohen-91123b182'><img src={navIcon1} alt='' /></a>
+              <a target={"_blank"} href='https://he-il.facebook.com/eran.cohen.37017'><img src={navIcon2} alt='' /></a>
+              <a target={"_blank"} href='https://github.com/Einchem?tab=repositories'><img src={navIcon3} alt='' /></a>
             </div>
-            <a className="vvd" href='/eran_cv.pdf' download>Lets Connect</a>
+            <a className="vvd" target={"_blank"} href='https://maroon-gilbertina-97.tiiny.site/' download>Lets Connect</a>
           </span>
         </Navbar.Collapse>
       </Container>

@@ -5,7 +5,6 @@ import portfolio from "../assets/img/portfolio.jpg"
 import { Col, Container, Row, Tab } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav';
 import ProjectCard from './ProjectCard'
-import colorSharp2 from "../assets/img/color-sharp2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,21 +13,21 @@ import TrackVisibility from 'react-on-screen';
 const Projects = () => {
     const projects = [
         {
-            title: "booking app",
-            description: "mini booking app using Mern-stuck stracture",
+            title: "Booking app",
+            description: "Mini booking app using Mern stuck stracture",
             imgUrl: booking,
             href:"https://github.com/Einchem/Bookingapp.git"
             
         },
         {
-            title: "weather app",
-            description: "wheather app using API",
+            title: "Weather app",
+            description: "Weather app using API",
             imgUrl: weather,
             href:"https://github.com/Einchem/weatherApp.git"
         },
         {
-            title: "portfolio",
-            description: "my portfolio",
+            title: "Portfolio",
+            description: "My portfolio",
             imgUrl: portfolio,
             
             href:"https://github.com/Einchem/Portfolio.git"
@@ -43,7 +42,6 @@ const Projects = () => {
                         {({isVisible}) =>
                         <div className={ isVisible ? "animate__animated animate__slideInUp":""}>
                         <h2>Projects</h2>
-                        <p>hello this is my projects 0.0</p>
                         </div>}
                     </TrackVisibility>
                         <Tab.Container id='projects-tabs' defaultActiveKey="first">
@@ -56,7 +54,7 @@ const Projects = () => {
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="third" >
-                                    Others
+                                    Other-projects
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>
@@ -85,7 +83,6 @@ const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-right' src={colorSharp2}/>
 
         </section>
     )

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
 import './banner.css'
-// import headerImg from "../assets/img/header-img.svg"
 import superman from '../assets/img/superman.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -54,7 +53,7 @@ const Banner = () => {
                         <h1>{`hi im eran cohen and i am  a ` }<span className='wrap'>{text}</span></h1>
                         <p>My name is eran and i am a Full-Stack developer
                         </p>
-                        <a className="cv-download" href='/eran_cv.pdf' download>Lets Connect<ArrowRightCircle size={25} /></a>
+                        <a className="cv-download" target={"_blank"} href='https://maroon-gilbertina-97.tiiny.site/' >Lets Connect<ArrowRightCircle size={25} /></a>
 
                         </div>}
                         </TrackVisibility>
