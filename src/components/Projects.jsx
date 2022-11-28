@@ -1,5 +1,5 @@
 import './projects.css'
-import booking from "../assets/img/booking2.jpg"
+import chat from "../assets/img/chatimg.jpg"
 import weather from "../assets/img/weather1.jpg"
 import portfolio from "../assets/img/portfolio.jpg"
 import { Col, Container, Row, Tab } from 'react-bootstrap'
@@ -13,10 +13,10 @@ import TrackVisibility from 'react-on-screen';
 const Projects = () => {
     const projects = [
         {
-            title: "Booking app",
-            description: "Mini booking app using Mern stuck stracture",
-            imgUrl: booking,
-            href:"https://github.com/Einchem/Bookingapp.git"
+            title: "Chat app",
+            description: "Chat app using Mern stuck stracture",
+            imgUrl: chat,
+            href:"https://github.com/Einchem/chatApp"
             
         },
         {
